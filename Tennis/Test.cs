@@ -126,8 +126,8 @@ namespace Tennis
         {
             reachDeuce();
             game.addPointToPlayer2();
-            Assert.AreEqual(game.returnPlayer2Score(), "A", "P2 score correct with P1 Advantage");
-            Assert.AreEqual(game.returnPlayer1Score(), "40", "P1 score correct with P1 Advantage");
+            Assert.AreEqual(game.returnPlayer2Score(), "A", "P2 score correct with P2 Advantage");
+            Assert.AreEqual(game.returnPlayer1Score(), "40", "P1 score correct with P2 Advantage");
         }
 
         [Test()]

@@ -40,7 +40,6 @@ namespace Tennis
            }
             else if (player1Point == "40" && player2Point == "40"){
                 player1Point = "A";
-               //player2Point = "40"
            }
             else if (player1Point == "40" && player2Point == "A"){
                 player1Point = "40";
@@ -75,7 +74,6 @@ namespace Tennis
            }
             else if (player2Point == "40" && player1Point == "40"){
                 player2Point = "A";
-               //player1Point = "40"
            }
             else if (player2Point == "40" && player1Point == "A"){
                 player1Point = "40";
